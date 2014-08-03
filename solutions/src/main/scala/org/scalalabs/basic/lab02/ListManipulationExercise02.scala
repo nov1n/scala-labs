@@ -34,7 +34,7 @@ object ListManipulationExercise02 {
 
 
   def sumOfTwo(l1: List[Int], l2: List[Int]): List[Int] = {
-    //use a touple to see wheater one of the element is Nil
+    //use a tuple to see whether one of the element is Nil
     (l1, l2) match {
       case (Nil, ys) => ys
       case (xs, Nil) => xs
